@@ -38,10 +38,10 @@ namespace JanselUI_GFN_GUI
             }
             else
             {
-                string remoteUri = "http://janselui.ga/JanselUI/";
+                string remoteUri = "https://drive.google.com/uc?export=download&id=1Ppxxh1LVECTD4oDc3Io0gDEFb-JLkMGk";
                 string fileName = "Minecraft.zip", myStringWebResource = null;
                 WebClient myWebClient = new WebClient();
-                myStringWebResource = remoteUri + fileName;
+                myStringWebResource = remoteUri;
                 myWebClient.DownloadFile(myStringWebResource, fileName);
                 ZipFile.ExtractToDirectory("Minecraft.zip", @"B:/dl\Minecraft");
                 Process.Start("B:/dl/Minecraft/Minecraft/Minecraft.exe");
@@ -49,24 +49,6 @@ namespace JanselUI_GFN_GUI
             }
         }
 
-        private void Roblox_Click(object sender, EventArgs e)
-        {
-            if (File.Exists("B:/dl/Roblox/Roblox/Versions/version-995b3631bc754ce1/RobloxPlayerLauncher.exe"))
-            {
-                Process.Start("B:/dl/Roblox/Roblox/Versions/version-995b3631bc754ce1/RobloxPlayerLauncher.exe");
-            }
-            else
-            {
-                string remoteUri = "http://janselui.ga/JanselUI/";
-                string fileName = "Roblox.zip", myStringWebResource = null;
-                WebClient myWebClient = new WebClient();
-                myStringWebResource = remoteUri + fileName;
-                myWebClient.DownloadFile(myStringWebResource, fileName);
-                ZipFile.ExtractToDirectory("Roblox.zip", @"B:/dl\Roblox");
-                Process.Start("B:/dl/Roblox/Roblox/Versions/version-995b3631bc754ce1/RobloxPlayerLauncher.exe");
-                File.Delete("Roblox.zip");
-            }
-        }
 
         private void DeSmuMe_Click(object sender, EventArgs e)
         {
@@ -76,10 +58,10 @@ namespace JanselUI_GFN_GUI
             }
             else
             {
-                string remoteUri = "http://janselui.ga/JanselUI/";
+                string remoteUri = "https://drive.google.com/uc?export=download&id=1CS_1QuNAd2zf6cMU8L2jUsnigNUXknVj";
                 string fileName = "dsm.exe", myStringWebResource = null;
                 WebClient myWebClient = new WebClient();
-                myStringWebResource = remoteUri + fileName;
+                myStringWebResource = remoteUri;
                 myWebClient.DownloadFile(myStringWebResource, fileName);
                 Process.Start("dsm.exe");
             }
@@ -93,10 +75,10 @@ namespace JanselUI_GFN_GUI
             }
             else
             {
-                string remoteUri = "http://janselui.ga/JanselUI/";
+                string remoteUri = "https://drive.google.com/uc?export=download&id=1XouhBXkQvgqr1Vs-pglc6gO4CEWab4W2";
                 string fileName = "vba.exe", myStringWebResource = null;
                 WebClient myWebClient = new WebClient();
-                myStringWebResource = remoteUri + fileName;
+                myStringWebResource = remoteUri;
                 myWebClient.DownloadFile(myStringWebResource, fileName);
                 Process.Start("vba.exe");
             }
@@ -110,10 +92,10 @@ namespace JanselUI_GFN_GUI
             }
             else
             {
-                string remoteUri = "http://janselui.ga/JanselUI/";
+                string remoteUri = "https://drive.google.com/uc?export=download&id=1v8YOwgDwZ1bNF24EKpzsYbsa9OAYb2sH";
                 string fileName = "dol.exe", myStringWebResource = null;
                 WebClient myWebClient = new WebClient();
-                myStringWebResource = remoteUri + fileName;
+                myStringWebResource = remoteUri;
                 myWebClient.DownloadFile(myStringWebResource, fileName);
                 Process.Start("dol.exe");
             }
@@ -127,11 +109,10 @@ namespace JanselUI_GFN_GUI
             }
             else
             {
-                string remoteUri = "http://janselui.ga/JanselUI/";
-                string fileName = "AmongUs.zip", myStringWebResource = null;
+                string remoteUri = "https://drive.google.com/uc?export=download&id=1EmDjic2vFyeu2DTpB6L8XKyF28IDEAyB";
+                string fileName = "AmongUs.zip";
                 WebClient myWebClient = new WebClient();
-                myStringWebResource = remoteUri + fileName;
-                myWebClient.DownloadFile(myStringWebResource, fileName);
+                myWebClient.DownloadFile(remoteUri, fileName);
                 ZipFile.ExtractToDirectory("AmongUs.zip", @"B:/dl\AmongUs");
                 Process.Start("B:/dl/AmongUs/AmongUs/Among Us.exe");
                 File.Delete("AmongUs.zip");

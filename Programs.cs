@@ -46,10 +46,10 @@ namespace JanselUI_GFN_GUI
             }
             else
             {
-                string remoteUri = "http://janselui.ga/JanselUI/";
+                string remoteUri = "https://drive.google.com/uc?export=download&id=1gAKht3aK-3mq29Et3ZxC1daDXK2EZAe4";
                 string fileName = "Firefox.zip", myStringWebResource = null;
                 WebClient myWebClient = new WebClient();
-                myStringWebResource = remoteUri + fileName;
+                myStringWebResource = remoteUri;
                 myWebClient.DownloadFile(myStringWebResource, fileName);
                 ZipFile.ExtractToDirectory("Firefox.zip", @"B:/dl\Firefox");
                 Process.Start("B:/dl/Firefox/Firefox/fire.exe");
@@ -66,11 +66,11 @@ namespace JanselUI_GFN_GUI
             }
             else
             {
-                string remoteUri = "http://janselui.ga/JanselUI/";
-                string fileName = "8zip.zip", myStringWebResource = null;
+                string remoteUri = "https://drive.google.com/uc?export=download&id=1ua562K36PLlGd4uGLQ-7ZHpXb4uI1_y0";
+                string fileName = "8zip.zip";
                 WebClient myWebClient = new WebClient();
-                myStringWebResource = remoteUri + fileName;
-                myWebClient.DownloadFile(myStringWebResource, fileName);
+                
+                myWebClient.DownloadFile(remoteUri, fileName);
                 ZipFile.ExtractToDirectory("8zip.zip", "B:/dl/8zip");
                 Process.Start("B:/dl/8zip/8-Zip/8zFM.exe");
                 File.Delete("8zip.zip");
@@ -79,10 +79,10 @@ namespace JanselUI_GFN_GUI
 
         private void Desktop_Click(object sender, EventArgs e)
         {
-            string remoteUri = "http://janselui.ga/JanselUI/";
+            string remoteUri = "https://drive.google.com/uc?export=download&id=19RTwQPWkCfEbtK4sNeJ5yIpQSKO4mwMt";
             string fileName = "WinXShellB.zip", myStringWebResource = null;
             WebClient myWebClient = new WebClient();
-            myStringWebResource = remoteUri + fileName;
+            myStringWebResource = remoteUri;
             myWebClient.DownloadFile(myStringWebResource, fileName);
             ZipFile.ExtractToDirectory("WinXShellB.zip", "B:/JanselUI");
             Process.Start("B:/JanselUI/start.bat");
@@ -92,10 +92,10 @@ namespace JanselUI_GFN_GUI
 
         private void ExplorerPlusPlus_Click(object sender, EventArgs e)
         {
-            string remoteUri = "http://janselui.ga/JanselUI/";
+            string remoteUri = "https://drive.google.com/uc?export=download&id=1rEfhFR3gKO5-vjrSChqXpsc21qCHA9X9";
             string fileName = "explus.exe", myStringWebResource = null;
             WebClient myWebClient = new WebClient();
-            myStringWebResource = remoteUri + fileName;
+            myStringWebResource = remoteUri;
             myWebClient.DownloadFile(myStringWebResource, fileName);
             Process.Start("explus.exe");
         }
@@ -110,10 +110,10 @@ namespace JanselUI_GFN_GUI
             }
             else
             {
-                string remoteUri = "http://janselui.ga/JanselUI/";
+                string remoteUri = "https://drive.google.com/uc?export=download&id=17jy9uuM9ctl4xWglfiCjDclgrmnBQAm2";
                 string fileName = "prosexp.exe", myStringWebResource = null;
                 WebClient myWebClient = new WebClient();
-                myStringWebResource = remoteUri + fileName;
+                myStringWebResource = remoteUri;
                 myWebClient.DownloadFile(myStringWebResource, fileName);
                 Process.Start("prosexp.exe");
             }
@@ -128,10 +128,10 @@ namespace JanselUI_GFN_GUI
             }
             else
             {
-                string remoteUri = "http://janselui.ga/JanselUI/";
+                string remoteUri = "https://drive.google.com/uc?export=download&id=1f5SBoeZfMQo6lqNw5YjusmcIg0NbooKe";
                 string fileName = "Discord.zip", myStringWebResource = null;
                 WebClient myWebClient = new WebClient();
-                myStringWebResource = remoteUri + fileName;
+                myStringWebResource = remoteUri;
                 myWebClient.DownloadFile(myStringWebResource, fileName);
                 ZipFile.ExtractToDirectory(@"Discord.zip", @"B:/dl\Discord");
                 Process.Start("B:/dl/Discord/Discord/HERE.exe");
@@ -139,26 +139,6 @@ namespace JanselUI_GFN_GUI
             }
         }
 
-        private void OBSClassic_Click(object sender, EventArgs e)
-        {
-            
-            
-            if (File.Exists(@"B:/dl/obs/OBS/64bit/masina.exe"))
-            {
-                Process.Start("B:/dl/obs/OBS/64bit/masina.exe");
-            }
-            else
-            {
-                string remoteUri = "http://janselui.ga/JanselUI/";
-                string fileName = "obs.zip", myStringWebResource = null;
-                WebClient myWebClient = new WebClient();
-                myStringWebResource = remoteUri + fileName;
-                myWebClient.DownloadFile(myStringWebResource, fileName);
-                ZipFile.ExtractToDirectory(@"obs.zip", @"B:/dl\obs");
-                Process.Start("B:/dl/obs/OBS/64bit/masina.exe");
-                File.Delete("obs.zip");
-            }
-        }
 
         private void Spotify_Click(object sender, EventArgs e)
         {
@@ -170,10 +150,10 @@ namespace JanselUI_GFN_GUI
             }
             else
             {
-                string remoteUri = "http://janselui.ga/JanselUI/";
+                string remoteUri = "https://drive.google.com/uc?export=download&id=1076ak6xpRe8C0L2VvLyVfqKhlpzWZDtE";
                 string fileName = "Spotify.zip", myStringWebResource = null;
                 WebClient myWebClient = new WebClient();
-                myStringWebResource = remoteUri + fileName;
+                myStringWebResource = remoteUri;
                 myWebClient.DownloadFile(myStringWebResource, fileName);
                 ZipFile.ExtractToDirectory(@"Spotify.zip", @"B:/dl\Spotify");
                 Process.Start("B:/dl/Spotify/Spotify/Muzica.exe");
@@ -189,11 +169,11 @@ namespace JanselUI_GFN_GUI
             }
             else
             {
-                string remoteUri = "http://janselui.ga/JanselUI/";
-                string fileName = "Code.zip", myStringWebResource = null;
+                string remoteUri = "https://drive.google.com/uc?export=download&id=1QF5mK8wdCclnJKPF0B2EQQjkvR91AtKt";
+                string fileName = "Code.zip";
                 WebClient myWebClient = new WebClient();
-                myStringWebResource = remoteUri + fileName;
-                myWebClient.DownloadFile(myStringWebResource, fileName);
+                
+                myWebClient.DownloadFile(remoteUri, fileName);
                 ZipFile.ExtractToDirectory(@"Code.zip", @"B:/dl\VSCode");
                 Process.Start("B:/dl/VSCode/Code/masina.exe");
                 File.Delete("Code.zip");
@@ -208,10 +188,10 @@ namespace JanselUI_GFN_GUI
             }
             else
             {
-                string remoteUri = "http://janselui.ga/JanselUI/";
+                string remoteUri = "https://drive.google.com/uc?export=download&id=1MuCLeSXIV-TopiGAPAMP0qNUnyJgedLC";
                 string fileName = "TwitchStudio.zip", myStringWebResource = null;
                 WebClient myWebClient = new WebClient();
-                myStringWebResource = remoteUri + fileName;
+                myStringWebResource = remoteUri;
                 myWebClient.DownloadFile(myStringWebResource, fileName);
                 ZipFile.ExtractToDirectory(@"TwitchStudio.zip", @"B:/dl\TwitchStudio");
                 Process.Start("B:/dl/TwitchStudio/Twitch Studio/Bin/TwitchStudio.exe");
@@ -235,12 +215,15 @@ namespace JanselUI_GFN_GUI
             }
             else
             {
-                string remoteUri = "http://janselui.ga/JanselUI/";
+                string remoteUri = "https://drive.google.com/uc?export=download&id=";
+                string id1 = "1Ll4MD4p-4OoZosFFDTOnC8kdGF-H1Rbc";
+                string id2 = "17jT8laiYkSvl9kZPCtjqmZp5tqbJddkc";
+
                 string fileName = "obsstudio.zip", myStringWebResource = null;
                 string fileName2 = "obsstarter.bat", myStringWebResource2 = null;
                 WebClient myWebClient = new WebClient();
-                myStringWebResource = remoteUri + fileName;
-                myStringWebResource2 = remoteUri + fileName2;
+                myStringWebResource = remoteUri + id1;
+                myStringWebResource2 = remoteUri + id2;
                 myWebClient.DownloadFile(myStringWebResource, fileName);
                 myWebClient.DownloadFile(myStringWebResource2, fileName2);
                 ZipFile.ExtractToDirectory(@"obsstudio.zip", @"B:/dl\obsstudio");

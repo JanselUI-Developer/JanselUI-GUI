@@ -55,3 +55,17 @@ A:\Visual Studio\JanselUI_GFN GUI\obj\Debug\JanselUI_GFN GUI.csproj.CoreCompileI
 A:\Visual Studio\JanselUI_GFN GUI\obj\Debug\JanselUI_GFN GUI.csproj.CopyComplete
 A:\Visual Studio\JanselUI_GFN GUI\obj\Debug\JanselUI_GFN GUI.exe
 A:\Visual Studio\JanselUI_GFN GUI\obj\Debug\JanselUI_GFN GUI.pdb
+C:\Users\Jannik\Source\Repos\JanselUI-Developer\JanselUI-GUI\bin\Debug\JanselUI_GFN GUI.exe.config
+C:\Users\Jannik\Source\Repos\JanselUI-Developer\JanselUI-GUI\bin\Debug\JanselUI_GFN GUI.exe
+C:\Users\Jannik\Source\Repos\JanselUI-Developer\JanselUI-GUI\bin\Debug\JanselUI_GFN GUI.pdb
+C:\Users\Jannik\Source\Repos\JanselUI-Developer\JanselUI-GUI\obj\Debug\JanselUI_GFN GUI.csprojAssemblyReference.cache
+C:\Users\Jannik\Source\Repos\JanselUI-Developer\JanselUI-GUI\obj\Debug\JanselUI_GFN_GUI.Games.resources
+C:\Users\Jannik\Source\Repos\JanselUI-Developer\JanselUI-GUI\obj\Debug\JanselUI_GFN_GUI.MainUI.resources
+C:\Users\Jannik\Source\Repos\JanselUI-Developer\JanselUI-GUI\obj\Debug\JanselUI_GFN_GUI.Programs.resources
+C:\Users\Jannik\Source\Repos\JanselUI-Developer\JanselUI-GUI\obj\Debug\JanselUI_GFN_GUI.Properties.Resources.resources
+C:\Users\Jannik\Source\Repos\JanselUI-Developer\JanselUI-GUI\obj\Debug\JanselUI_GFN_GUI.SysInfo.resources
+C:\Users\Jannik\Source\Repos\JanselUI-Developer\JanselUI-GUI\obj\Debug\JanselUI_GFN GUI.csproj.GenerateResource.cache
+C:\Users\Jannik\Source\Repos\JanselUI-Developer\JanselUI-GUI\obj\Debug\JanselUI_GFN GUI.csproj.CoreCompileInputs.cache
+C:\Users\Jannik\Source\Repos\JanselUI-Developer\JanselUI-GUI\obj\Debug\JanselUI_GFN GUI.csproj.CopyComplete
+C:\Users\Jannik\Source\Repos\JanselUI-Developer\JanselUI-GUI\obj\Debug\JanselUI_GFN GUI.exe
+C:\Users\Jannik\Source\Repos\JanselUI-Developer\JanselUI-GUI\obj\Debug\JanselUI_GFN GUI.pdb
