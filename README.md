@@ -1,3 +1,3 @@
 # JanselUI-GUI
 This is the Repository of JanselUI.
-If you yre here, then it was meant u can see this.
+Open Source. But if u make a external Program, please make sure to link me and/or my discord!
