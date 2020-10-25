@@ -36,7 +36,6 @@
             this.ExplorerPlusPlus = new Guna.UI2.WinForms.Guna2GradientButton();
             this.ProcessHacker = new Guna.UI2.WinForms.Guna2GradientButton();
             this.Discord = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.OBSClassic = new Guna.UI2.WinForms.Guna2GradientButton();
             this.Spotify = new Guna.UI2.WinForms.Guna2GradientButton();
             this.VisualStudioCode = new Guna.UI2.WinForms.Guna2GradientButton();
             this.TwitchStudio = new Guna.UI2.WinForms.Guna2GradientButton();
@@ -185,26 +184,6 @@
             this.Discord.Text = "Discord";
             this.Discord.Click += new System.EventHandler(this.Discord_Click);
             // 
-            // OBSClassic
-            // 
-            this.OBSClassic.AutoRoundedCorners = true;
-            this.OBSClassic.BackColor = System.Drawing.Color.Transparent;
-            this.OBSClassic.BorderRadius = 14;
-            this.OBSClassic.CheckedState.Parent = this.OBSClassic;
-            this.OBSClassic.CustomImages.Parent = this.OBSClassic;
-            this.OBSClassic.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.OBSClassic.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(80)))), ((int)(((byte)(123)))));
-            this.OBSClassic.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.OBSClassic.ForeColor = System.Drawing.Color.White;
-            this.OBSClassic.HoverState.Parent = this.OBSClassic;
-            this.OBSClassic.Location = new System.Drawing.Point(12, 228);
-            this.OBSClassic.Name = "OBSClassic";
-            this.OBSClassic.ShadowDecoration.Parent = this.OBSClassic;
-            this.OBSClassic.Size = new System.Drawing.Size(125, 30);
-            this.OBSClassic.TabIndex = 12;
-            this.OBSClassic.Text = "OBS Classic";
-            this.OBSClassic.Click += new System.EventHandler(this.OBSClassic_Click);
-            // 
             // Spotify
             // 
             this.Spotify.AutoRoundedCorners = true;
@@ -277,7 +256,7 @@
             this.OBSStudio.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.OBSStudio.ForeColor = System.Drawing.Color.White;
             this.OBSStudio.HoverState.Parent = this.OBSStudio;
-            this.OBSStudio.Location = new System.Drawing.Point(12, 372);
+            this.OBSStudio.Location = new System.Drawing.Point(12, 228);
             this.OBSStudio.Name = "OBSStudio";
             this.OBSStudio.ShadowDecoration.Parent = this.OBSStudio;
             this.OBSStudio.Size = new System.Drawing.Size(125, 30);
@@ -341,7 +320,6 @@
             this.Controls.Add(this.TwitchStudio);
             this.Controls.Add(this.VisualStudioCode);
             this.Controls.Add(this.Spotify);
-            this.Controls.Add(this.OBSClassic);
             this.Controls.Add(this.Discord);
             this.Controls.Add(this.ProcessHacker);
             this.Controls.Add(this.ExplorerPlusPlus);
@@ -351,7 +329,7 @@
             this.Controls.Add(this.Schließen);
             this.Name = "Programs";
             this.ShowIcon = false;
-            this.Text = "JanselUI GUI Edition (GFN; Programs; V2.0.4)";
+            this.Text = "JanselUI GUI Edition (GFN; Programs; V2.0.5)";
             this.ResumeLayout(false);
 
         }
@@ -364,7 +342,6 @@
         private Guna.UI2.WinForms.Guna2GradientButton ExplorerPlusPlus;
         private Guna.UI2.WinForms.Guna2GradientButton ProcessHacker;
         private Guna.UI2.WinForms.Guna2GradientButton Discord;
-        private Guna.UI2.WinForms.Guna2GradientButton OBSClassic;
         private Guna.UI2.WinForms.Guna2GradientButton Spotify;
         private Guna.UI2.WinForms.Guna2GradientButton VisualStudioCode;
         private Guna.UI2.WinForms.Guna2GradientButton TwitchStudio;

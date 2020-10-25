@@ -97,7 +97,7 @@
             this.MinimizeBox = false;
             this.Name = "SysInfo";
             this.ShowIcon = false;
-            this.Text = "JanselUI GUI Edition (GFN; System Information; V2.0.4)";
+            this.Text = "JanselUI GUI Edition (GFN; System Information; V2.0.5)";
             this.ResumeLayout(false);
             this.PerformLayout();
 

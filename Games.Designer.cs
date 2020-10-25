@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Games));
             this.Schließen = new Guna.UI2.WinForms.Guna2GradientButton();
             this.Minecraft = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.Roblox = new Guna.UI2.WinForms.Guna2GradientButton();
             this.DeSmuMe = new Guna.UI2.WinForms.Guna2GradientButton();
             this.VisualBoyAdvance = new Guna.UI2.WinForms.Guna2GradientButton();
             this.Dolphin = new Guna.UI2.WinForms.Guna2GradientButton();
@@ -77,26 +76,6 @@
             this.Minecraft.TabIndex = 11;
             this.Minecraft.Text = "Minecraft";
             this.Minecraft.Click += new System.EventHandler(this.Minecraft_Click);
-            // 
-            // Roblox
-            // 
-            this.Roblox.AutoRoundedCorners = true;
-            this.Roblox.BackColor = System.Drawing.Color.Transparent;
-            this.Roblox.BorderRadius = 14;
-            this.Roblox.CheckedState.Parent = this.Roblox;
-            this.Roblox.CustomImages.Parent = this.Roblox;
-            this.Roblox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Roblox.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(80)))), ((int)(((byte)(123)))));
-            this.Roblox.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.Roblox.ForeColor = System.Drawing.Color.White;
-            this.Roblox.HoverState.Parent = this.Roblox;
-            this.Roblox.Location = new System.Drawing.Point(12, 48);
-            this.Roblox.Name = "Roblox";
-            this.Roblox.ShadowDecoration.Parent = this.Roblox;
-            this.Roblox.Size = new System.Drawing.Size(125, 30);
-            this.Roblox.TabIndex = 12;
-            this.Roblox.Text = "Roblox";
-            this.Roblox.Click += new System.EventHandler(this.Roblox_Click);
             // 
             // DeSmuMe
             // 
@@ -170,7 +149,7 @@
             this.AmongUs.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.AmongUs.ForeColor = System.Drawing.Color.White;
             this.AmongUs.HoverState.Parent = this.AmongUs;
-            this.AmongUs.Location = new System.Drawing.Point(12, 192);
+            this.AmongUs.Location = new System.Drawing.Point(12, 48);
             this.AmongUs.Name = "AmongUs";
             this.AmongUs.ShadowDecoration.Parent = this.AmongUs;
             this.AmongUs.Size = new System.Drawing.Size(125, 30);
@@ -188,14 +167,13 @@
             this.Controls.Add(this.Dolphin);
             this.Controls.Add(this.VisualBoyAdvance);
             this.Controls.Add(this.DeSmuMe);
-            this.Controls.Add(this.Roblox);
             this.Controls.Add(this.Minecraft);
             this.Controls.Add(this.Schließen);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Games";
             this.ShowIcon = false;
-            this.Text = "JanselUI GUI Edition (GFN; Games; V2.0.4)";
+            this.Text = "JanselUI GUI Edition (GFN; Games; V2.0.5)";
             this.ResumeLayout(false);
 
         }
@@ -204,7 +182,6 @@
 
         private Guna.UI2.WinForms.Guna2GradientButton Schließen;
         private Guna.UI2.WinForms.Guna2GradientButton Minecraft;
-        private Guna.UI2.WinForms.Guna2GradientButton Roblox;
         private Guna.UI2.WinForms.Guna2GradientButton DeSmuMe;
         private Guna.UI2.WinForms.Guna2GradientButton VisualBoyAdvance;
         private Guna.UI2.WinForms.Guna2GradientButton Dolphin;

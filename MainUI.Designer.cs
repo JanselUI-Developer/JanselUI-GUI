@@ -146,7 +146,7 @@
             this.MinimizeBox = false;
             this.Name = "MainUI";
             this.ShowIcon = false;
-            this.Text = "JanselUI GUI Edition (GFN; V2.0.4)";
+            this.Text = "JanselUI GUI Edition (GFN; V2.0.5)";
             this.Load += new System.EventHandler(this.MainUI_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
